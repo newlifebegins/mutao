@@ -326,7 +326,7 @@
                                         <strong>¥3</strong>
                                     </div>
                                     <i class="hot"><img src="images/hot.png" alt="热卖"></i>
-                                    <div class="num"><a href="#">-</a><input type="text" value="1"><a href="#">+</a><a class="shopCart" href="#">购物车</a></div>
+                                    <div class="num"><a class="min" href="#">-</a><input type="text" value="1"><a class="max" href="#">+</a><a class="shopCart" href="#">购物车</a></div>
                                 </div>
                             </li>
                             <li>
@@ -360,6 +360,7 @@
             </div>
         </div>
     </section>
+    <div class="returnTop"><a href="#">返回顶部</a></div>
     <script src="js/jquery-1.7.1.min.js"></script>
     <script src="js/swiper.min.js"></script>
     <script>
@@ -370,6 +371,20 @@
             mousewheelControl: true,
             freeMode: true,
             roundLengths : true, //防止文字模糊
+        });
+        $(document).ready(function(){
+            var i = 1;
+            $(".min").on("click",function(){
+                i -= 1;
+                if(i == 0)i = 1;
+                $(this).siblings("input").val(i);
+                return false;
+            });
+            $(".max").on("click",function(){
+                i += 1;
+                $(this).siblings("input").val(i);
+                return false;
+            });
         });
     </script>
 

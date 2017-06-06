@@ -56,3 +56,5 @@ a{text-decoration:none; cursor:pointer;}
 .rightContent li .li .num a { display: inline-block; font-weight: bold; font-size: 20px; color: #000; }
 .rightContent li .li .num input { display: inline-block; width: 35px; height: 24px; border: 1px solid #658a37; margin: 0 7px; text-align: center; font-size: 12px; color: #000; }
 .rightContent li .li .num .shopCart { text-indent: -9999px; position: absolute; right: 6px; width: 29px; height: 27px; background: url(../images/shopCart.png) no-repeat center; }
+.returnTop { position: fixed; bottom: 104px; right: 46px; z-index: 99999; }
+.returnTop a { text-indent: -9999px; display: block; width: 41px; height: 59px; background: url(../images/returnTop.png) no-repeat center; }
