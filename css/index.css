@@ -34,7 +34,7 @@ a{text-decoration:none; cursor:pointer;}
 .nav_left_title { font-size: 24px; color: #11873b; letter-spacing: 5px; text-align: center; padding: 18px 0; background: url(../images/dot.png) no-repeat 80px center; }
 /*.nav_left_title i { font-weight: bold; }*/
 .shopCar { text-align: center; }
-.shopCar .nav_left_title { background-position: 95px center; padding-bottom: 10px; }
+.shopCar .nav_left_title { background-position: 95px center; padding: 10px 0; }
 .shopCar img { position: relative; left: -15px; }
 .navLeft { width: 315px; height: 621px; background: #fff url(../images/left_bg.png) no-repeat center; padding: 10px 6px; box-sizing: border-box; }
 .navLeft ul { background: #fdf7af; width: 100%; height: 100%; border-radius: 12px; padding: 5px 14px 14px; box-sizing: border-box; }
