@@ -31,7 +31,7 @@ a{text-decoration:none; cursor:pointer;}
 /*.content:before { content: ''; position: absolute; width: 610px; height: 748px; bottom: 74px; left: 0; z-index: 2; background: url(../images/shopBg.png) no-repeat center bottom; }*/
 .content:after { content: ''; position: absolute; width: 100%; height: 76px; bottom: 0; left: 0; right: 0; z-index: 9999; background: url(../images/bodyBottom.png) no-repeat center bottom; }
 .navLeftWrap { width: 315px; float: left; position: fixed; z-index: 99999; }
-.nav_left_title { font-size: 24px; color: #11873b; letter-spacing: 5px; text-align: center; padding: 22px 0; background: url(../images/dot.png) no-repeat 80px center; }
+.nav_left_title { font-size: 24px; color: #11873b; letter-spacing: 5px; text-align: center; padding: 18px 0; background: url(../images/dot.png) no-repeat 80px center; }
 /*.nav_left_title i { font-weight: bold; }*/
 .shopCar { text-align: center; }
 .shopCar .nav_left_title { background-position: 95px center; padding-bottom: 10px; }
