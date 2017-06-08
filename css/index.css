@@ -31,10 +31,10 @@ a{text-decoration:none; cursor:pointer;}
 /*.content:before { content: ''; position: absolute; width: 610px; height: 748px; bottom: 74px; left: 0; z-index: 2; background: url(../images/shopBg.png) no-repeat center bottom; }*/
 .content:after { content: ''; position: absolute; width: 100%; height: 76px; bottom: 0; left: 0; right: 0; z-index: 9999; background: url(../images/bodyBottom.png) no-repeat center bottom; }
 .navLeftWrap { width: 257px; float: left; position: fixed; z-index: 99999; }
-.nav_left_title { font-size: 18px; color: #11873b; letter-spacing: 5px; text-align: center; padding: 10px 0; background: url(../images/dot.png) no-repeat 50px center; }
+.nav_left_title { font-size: 18px; color: #11873b; letter-spacing: 5px; text-align: center; padding: 10px 0; background: url(../images/dot.png) no-repeat 60px center; }
 /*.nav_left_title i { font-weight: bold; }*/
 .shopCar { text-align: center; }
-.shopCar .nav_left_title { background-position: 65px center; }
+.shopCar .nav_left_title { background-position: 70px center; }
 .shopCar img { position: relative; left: -15px; }
 .navLeft { width: 257px; height: 507px; background: #fff url(../images/left_bg.png) no-repeat center; background-size: cover; padding: 10px 6px; box-sizing: border-box; }
 .navLeft ul { background: #fdf7af; width: 100%; height: 100%; border-radius: 12px; padding: 5px 14px 14px; box-sizing: border-box; }
